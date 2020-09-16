@@ -1,0 +1,47 @@
+body {
+    margin: 100px;
+    background-color: gray;
+    font-family: 'Consolas', sans-serif;
+}
+
+#errors {
+    color: maroon;
+}
+
+#editor {
+    background-color: black;
+    color: white;
+    padding: 0.7em;
+    border-radius: 10px;
+}
+
+.highlight {
+    padding: 0.2em;
+    border-radius: 0.1em;
+}
+
+.highlight-PROTOCOL {
+    background-color: cyan;
+    color: black;
+}
+
+.highlight-DOMAIN {
+    background-color: orange;
+    color: black;
+}
+
+.highlight-PATH {
+    background-color: yellow;
+    color: black;
+}
+
+.highlight-QUERY {
+    background-color: #00ee00;
+    color: black;
+}
+
+
+.highlight-FRAGMENT {
+    background-color: pink;
+    color: black;
+}
