@@ -10,6 +10,8 @@ const selectionOutput = document.getElementById('selection');
 const errors = document.getElementById("errors");
 
 function parseURL(text) {
+  console.log(`"${text}"`);
+
   // Timing
   const timeStart = Date.now();
 
@@ -95,9 +97,10 @@ function parseURL(text) {
     eatAll("TEXT");
   }
 
-
   // Timing
   parseTime = Date.now() - timeStart;
+
+  map = map.filter(([start, end]) => start <= end);
 
   return {
     protocol,
